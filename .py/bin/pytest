@@ -1,7 +1,0 @@
-#!/Users/mingli/Caiyun/gaia-template/.py/bin/python
-
-import warnings
-warnings.simplefilter('default', DeprecationWarning)
-
-from logilab.common.pytest import run
-run()

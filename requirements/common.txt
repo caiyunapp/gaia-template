@@ -1,0 +1,7 @@
+nose
+semver
+PyYAML
+
+uwsgi
+Flask
+redis

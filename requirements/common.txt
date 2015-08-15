@@ -1,6 +1,7 @@
 nose
 semver
 PyYAML
+pyCLI
 
 uwsgi
 Flask

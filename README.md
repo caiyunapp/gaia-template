@@ -8,4 +8,5 @@ How to start
 
 ```bash
 . hello
+start
 ```

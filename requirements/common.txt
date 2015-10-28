@@ -6,3 +6,5 @@ pyCLI
 uwsgi
 Flask
 redis
+
+gaiabase

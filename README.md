@@ -1,12 +1,22 @@
-Gaia project template
-=====================
+Gaia backend project template
+=============================
 
-Gaia is a Python-based backend infrastructure and this repo is the project template for Gaia.
+Gaia is a Python-based backend infrastructure and this repo is the backend project template.
 
-How to start
+How to create
 -------------
 
+Install gaia-toolkit first, and then:
+
 ```bash
-. hello
-start
+g create backend YOUR_PROJ_NAME
+```
+
+How to start service
+--------------------
+
+```bash
+cd YOUR_PROJ_NAME
+. develop
+bin/start
 ```

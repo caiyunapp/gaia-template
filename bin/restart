@@ -19,5 +19,5 @@ cd $CUR/..
 
 kill -INT `cat log/empr.pid`
 
-uwsgi --listen 1024 --emperor=conf/${GAIA_ENV}/vassals --pidfile log/empr.pid --daemonize log/empr.log > log/out.log 2>&1
+uwsgi --emperor=conf/${PRJ_ENV}/vassals --pidfile log/empr.pid --daemonize log/empr.log > log/out.log 2>&1
 
